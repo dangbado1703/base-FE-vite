@@ -5,12 +5,12 @@ import { PATH } from '~/contants/contants'
 
 const Login = () => {
   const {
-    register,
     handleSubmit,
-    formState: { errors }
   } = useForm()
 
-  const onSubmit = (data: any) => {}
+  const onSubmit = (data: any) => {
+    console.log('data:::', data)
+  }
 
   return (
     <div className='bg-orange'>
