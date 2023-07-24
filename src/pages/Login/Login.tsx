@@ -30,7 +30,7 @@ const Login = () => {
                 </button>
               </div>
               <div className='flex items-center justify-center text-sm mt-8'>
-                <span className='text-slate-400'>Bạn đã chưa tài khoản?</span>
+                <span className='text-slate-400'>Bạn đã chưa tài khoản jenkins change?</span>
                 <Link className='text-red-400' to={PATH.REGISTER}>
                   Đăng ký
                 </Link>
